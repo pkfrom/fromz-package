@@ -1,0 +1,23 @@
+{
+    "name": "fromz/fromz-package",
+    "description": "Fromz Package",
+    "license": "MIT",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Fromz Prajuktar",
+            "email": "pkfromz@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {"Fromz\\FromzPackage\\": "src/"}
+    }
+}
